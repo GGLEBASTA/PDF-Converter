@@ -21,7 +21,7 @@ print("\033[33m {}" .format('''
 ╚═════╝░░░░╚═╝░░░  ░╚═════╝░░╚═════╝░╚══════╝╚══════╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝
 '''))
 def pdfkin():
-    num_menu = input("-----МЕНЮ-----\n\n1) DOCX TO PDF\n2) COMBINE PDF FILES \n")
+    num_menu = input("-----MENU-----\n\n1) DOCX TO PDF\n2) COMBINE PDF FILES \n")
     if num_menu == "1":
         num_choose = input("-----DOCX TO PDF-----\n\n1) ONE file\n2) LOTS of files\n")
 
